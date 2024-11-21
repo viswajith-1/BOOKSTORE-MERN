@@ -50,7 +50,7 @@ app.get("/books", async (request, response) => {
   }
 });
 
-app.get("/books", async (request, response) => {
+app.get("/books/id", async (request, response) => {
   try {
     const books = await Book.find({});
     return response.status(200).send({
