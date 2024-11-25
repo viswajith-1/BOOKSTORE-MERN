@@ -74,3 +74,5 @@ mongoose
   .catch((error) => {
     console.log(error);
   });
+
+// watching classes on mongoDB day 1
