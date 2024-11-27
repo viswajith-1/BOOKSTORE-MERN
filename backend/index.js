@@ -75,4 +75,4 @@ mongoose
     console.log(error);
   });
 
-// watching classes on mongoDB day 1
+// watching classes on mongoDB day 2
